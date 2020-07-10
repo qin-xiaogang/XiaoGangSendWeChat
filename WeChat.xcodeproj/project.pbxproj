@@ -131,10 +131,10 @@
 			children = (
 				C9066C9E24B8372800918849 /* XG_SendMomentCollectionViewCell.h */,
 				C9066C9F24B8372800918849 /* XG_SendImageCollectionView.h */,
-				C9066CA024B8372800918849 /* XG_WeChatHeadCollectionReusableView.m */,
 				C9066CA124B8372800918849 /* XG_SendMomentCollectionViewCell.m */,
 				C9066CA224B8372800918849 /* XG_SendImageCollectionView.m */,
 				C9066CA324B8372800918849 /* XG_WeChatHeadCollectionReusableView.h */,
+				C9066CA024B8372800918849 /* XG_WeChatHeadCollectionReusableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";

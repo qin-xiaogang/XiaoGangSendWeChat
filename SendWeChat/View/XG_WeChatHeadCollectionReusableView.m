@@ -7,15 +7,16 @@
 //
 
 #import "XG_WeChatHeadCollectionReusableView.h"
+#import "Masonry.h"
 static NSString *const XG_WeChatPlaceHoldString = @"这一刻的想法...";
 @implementation XG_WeChatHeadCollectionReusableView
 -(instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
         [self addSubview:self.send_TextView];
-        [_send_TextView makeConstraints:^(MASConstraintMaker *make) {
-            make.top.left.equalTo(10);
-            make.bottom.right.equalTo(-10);
+        [_send_TextView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.left.mas_equalTo(@10);
+            make.bottom.right.mas_equalTo(@-10);
             
         }];
     }

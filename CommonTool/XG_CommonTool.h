@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface XG_CommonTool : NSObject
 +(UIImage*) createImageWithColor:(UIColor*) color andSize:(CGSize)imageSize;
 @end

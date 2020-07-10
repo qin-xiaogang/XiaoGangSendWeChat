@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "XG_SendWechatViewController.h"
+#import <Masonry.h>
 @interface ViewController ()
 
 @end
@@ -27,14 +28,14 @@
     [centerButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     centerButton.backgroundColor = [UIColor redColor];
     [self.view addSubview:centerButton];
-    [centerButton makeConstraints:^(MASConstraintMaker *make) {
+    [centerButton mas_makeConstraints:^(MASConstraintMaker *make) {
         if (@available(iOS 11.0, *)) {
-            make.top.equalTo(self.view.safeAreaLayoutGuideTop).offset(100);
+            make.top.mas_equalTo(self.view.mas_safeAreaLayoutGuideTop).mas_offset(@100);
         }else{
-            make.top.equalTo(100);
+            make.top.mas_equalTo(@100);
         }
-        make.centerX.equalTo(self.view);
-        make.height.width.equalTo(100);
+        make.centerX.mas_equalTo(self.view);
+        make.height.width.mas_equalTo(@100);
     }];
 }
 -(void)centerButtonClick{

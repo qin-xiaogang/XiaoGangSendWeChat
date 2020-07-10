@@ -9,7 +9,7 @@
 #import "XG_SendWechatViewController.h"
 #import "XG_SendImageCollectionView.h"
 #import "QBImagePickerController.h"
-
+#import <Masonry.h>
 static int const MaxImagesCount = 9; //表示能够选择的最大图片数
 @interface XG_SendWechatViewController ()<QBImagePickerControllerDelegate,XG_SendImageCollectionViewDelegate>
 @property (nonatomic,strong) XG_SendImageCollectionView *collectionView;
@@ -29,11 +29,11 @@ static int const MaxImagesCount = 9; //表示能够选择的最大图片数
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"发表" style:UIBarButtonItemStylePlain target:self action:@selector(sendButtonlick)];
     
     [self.view addSubview:self.collectionView];
-    [_collectionView makeConstraints:^(MASConstraintMaker *make) {
+    [_collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         if (@available(iOS 11.0, *)) {
-            make.edges.equalTo(self.view.safeAreaInsets);
+            make.edges.mas_equalTo(self.view.safeAreaInsets);
         } else {
-            make.edges.equalTo(self.view);
+            make.edges.mas_equalTo(self.view);
         }
     }];
 }

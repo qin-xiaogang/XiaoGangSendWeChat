@@ -8,6 +8,8 @@
 
 #import "XG_SendImageCollectionView.h"
 #import "XG_SendMomentCollectionViewCell.h"
+#import "XG_CommonTool.h"
+#define mDeviceWidth [UIScreen mainScreen].bounds.size.width        //屏幕宽
 static CGFloat const CellWidth = 70;
 static int const MaxImagesCount = 9; //表示能够选择的最大图片数
 static NSString *const XG_SendImageCellID = @"XG_SendImageCellID";
