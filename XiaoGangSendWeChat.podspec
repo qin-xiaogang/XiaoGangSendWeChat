@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "SendWeChat/**/*.{h,m}", "CommonTool/**/*.{h,m}"
   spec.requires_arc = true
   spec.dependency  "QBImagePickerController"
-  spec.dependency  "Masonry"
+  spec.dependency  "Masonry","~> 1.0.0"
 end
