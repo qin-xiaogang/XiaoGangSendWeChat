@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,11 @@
 		02B8D1882098435100282D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B8D1872098435100282D96 /* Assets.xcassets */; };
 		02B8D18E2098435100282D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B8D18D2098435100282D96 /* main.m */; };
 		A46BA21E27D5424FB7D35A3E /* libPods-WeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E607C685A307ED4FE7632ECC /* libPods-WeChat.a */; };
-		C9066CA724B8372800918849 /* XG_SendWechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066C9C24B8372800918849 /* XG_SendWechatViewController.m */; };
-		C9066CA824B8372800918849 /* XG_WeChatHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CA024B8372800918849 /* XG_WeChatHeadCollectionReusableView.m */; };
-		C9066CA924B8372800918849 /* XG_SendMomentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CA124B8372800918849 /* XG_SendMomentCollectionViewCell.m */; };
-		C9066CAA24B8372800918849 /* XG_SendImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CA224B8372800918849 /* XG_SendImageCollectionView.m */; };
-		C9066CAB24B8372800918849 /* XG_CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CA524B8372800918849 /* XG_CommonTool.m */; };
+		C9066CC424B85F2400918849 /* XG_WeChatHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CBD24B85F2400918849 /* XG_WeChatHeadCollectionReusableView.m */; };
+		C9066CC524B85F2400918849 /* XG_CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CBE24B85F2400918849 /* XG_CommonTool.m */; };
+		C9066CC624B85F2400918849 /* XG_SendMomentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CBF24B85F2400918849 /* XG_SendMomentCollectionViewCell.m */; };
+		C9066CC724B85F2400918849 /* XG_SendImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CC024B85F2400918849 /* XG_SendImageCollectionView.m */; };
+		C9066CC824B85F2400918849 /* XG_SendWechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9066CC124B85F2400918849 /* XG_SendWechatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +31,16 @@
 		02B8D197209847FA00282D96 /* WeChat.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChat.pch; sourceTree = "<group>"; };
 		130EAA8EBA0589ABE8693994 /* Pods-WeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChat/Pods-WeChat.debug.xcconfig"; sourceTree = "<group>"; };
 		54C0442BEF4F965B99A8F7A3 /* Pods-WeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChat/Pods-WeChat.release.xcconfig"; sourceTree = "<group>"; };
-		C9066C9B24B8372800918849 /* XG_SendWechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_SendWechatViewController.h; sourceTree = "<group>"; };
-		C9066C9C24B8372800918849 /* XG_SendWechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_SendWechatViewController.m; sourceTree = "<group>"; };
-		C9066C9E24B8372800918849 /* XG_SendMomentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_SendMomentCollectionViewCell.h; sourceTree = "<group>"; };
-		C9066C9F24B8372800918849 /* XG_SendImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_SendImageCollectionView.h; sourceTree = "<group>"; };
-		C9066CA024B8372800918849 /* XG_WeChatHeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_WeChatHeadCollectionReusableView.m; sourceTree = "<group>"; };
-		C9066CA124B8372800918849 /* XG_SendMomentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_SendMomentCollectionViewCell.m; sourceTree = "<group>"; };
-		C9066CA224B8372800918849 /* XG_SendImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_SendImageCollectionView.m; sourceTree = "<group>"; };
-		C9066CA324B8372800918849 /* XG_WeChatHeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_WeChatHeadCollectionReusableView.h; sourceTree = "<group>"; };
-		C9066CA524B8372800918849 /* XG_CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_CommonTool.m; sourceTree = "<group>"; };
-		C9066CA624B8372800918849 /* XG_CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_CommonTool.h; sourceTree = "<group>"; };
+		C9066CBA24B85F2400918849 /* XG_SendMomentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_SendMomentCollectionViewCell.h; sourceTree = "<group>"; };
+		C9066CBB24B85F2400918849 /* XG_SendImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_SendImageCollectionView.h; sourceTree = "<group>"; };
+		C9066CBC24B85F2400918849 /* XG_SendWechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_SendWechatViewController.h; sourceTree = "<group>"; };
+		C9066CBD24B85F2400918849 /* XG_WeChatHeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_WeChatHeadCollectionReusableView.m; sourceTree = "<group>"; };
+		C9066CBE24B85F2400918849 /* XG_CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_CommonTool.m; sourceTree = "<group>"; };
+		C9066CBF24B85F2400918849 /* XG_SendMomentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_SendMomentCollectionViewCell.m; sourceTree = "<group>"; };
+		C9066CC024B85F2400918849 /* XG_SendImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_SendImageCollectionView.m; sourceTree = "<group>"; };
+		C9066CC124B85F2400918849 /* XG_SendWechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XG_SendWechatViewController.m; sourceTree = "<group>"; };
+		C9066CC224B85F2400918849 /* XG_CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_CommonTool.h; sourceTree = "<group>"; };
+		C9066CC324B85F2400918849 /* XG_WeChatHeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XG_WeChatHeadCollectionReusableView.h; sourceTree = "<group>"; };
 		E607C685A307ED4FE7632ECC /* libPods-WeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,8 +77,7 @@
 		02B8D17D2098434F00282D96 /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
-				C9066CA424B8372800918849 /* CommonTool */,
-				C9066C9924B8372800918849 /* SendWeChat */,
+				C9066CB924B85F2400918849 /* SendWeChat */,
 				02B8D17E2098434F00282D96 /* AppDelegate.h */,
 				02B8D17F2098434F00282D96 /* AppDelegate.m */,
 				02B8D1812098434F00282D96 /* ViewController.h */,
@@ -108,44 +107,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C9066C9924B8372800918849 /* SendWeChat */ = {
+		C9066CB924B85F2400918849 /* SendWeChat */ = {
 			isa = PBXGroup;
 			children = (
-				C9066C9A24B8372800918849 /* Controller */,
-				C9066C9D24B8372800918849 /* View */,
+				C9066CBA24B85F2400918849 /* XG_SendMomentCollectionViewCell.h */,
+				C9066CBB24B85F2400918849 /* XG_SendImageCollectionView.h */,
+				C9066CBC24B85F2400918849 /* XG_SendWechatViewController.h */,
+				C9066CBD24B85F2400918849 /* XG_WeChatHeadCollectionReusableView.m */,
+				C9066CBE24B85F2400918849 /* XG_CommonTool.m */,
+				C9066CBF24B85F2400918849 /* XG_SendMomentCollectionViewCell.m */,
+				C9066CC024B85F2400918849 /* XG_SendImageCollectionView.m */,
+				C9066CC124B85F2400918849 /* XG_SendWechatViewController.m */,
+				C9066CC224B85F2400918849 /* XG_CommonTool.h */,
+				C9066CC324B85F2400918849 /* XG_WeChatHeadCollectionReusableView.h */,
 			);
 			path = SendWeChat;
-			sourceTree = SOURCE_ROOT;
-		};
-		C9066C9A24B8372800918849 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C9066C9B24B8372800918849 /* XG_SendWechatViewController.h */,
-				C9066C9C24B8372800918849 /* XG_SendWechatViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C9066C9D24B8372800918849 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C9066C9E24B8372800918849 /* XG_SendMomentCollectionViewCell.h */,
-				C9066C9F24B8372800918849 /* XG_SendImageCollectionView.h */,
-				C9066CA124B8372800918849 /* XG_SendMomentCollectionViewCell.m */,
-				C9066CA224B8372800918849 /* XG_SendImageCollectionView.m */,
-				C9066CA324B8372800918849 /* XG_WeChatHeadCollectionReusableView.h */,
-				C9066CA024B8372800918849 /* XG_WeChatHeadCollectionReusableView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C9066CA424B8372800918849 /* CommonTool */ = {
-			isa = PBXGroup;
-			children = (
-				C9066CA524B8372800918849 /* XG_CommonTool.m */,
-				C9066CA624B8372800918849 /* XG_CommonTool.h */,
-			);
-			path = CommonTool;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -220,17 +196,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WeChat/Pods-WeChat-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeChat/Pods-WeChat-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeChat/Pods-WeChat-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChat/Pods-WeChat-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeChat/Pods-WeChat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1D217A778E69389C5396EA4 /* [CP] Check Pods Manifest.lock */ = {
@@ -259,13 +234,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B8D1832098434F00282D96 /* ViewController.m in Sources */,
-				C9066CA824B8372800918849 /* XG_WeChatHeadCollectionReusableView.m in Sources */,
 				02B8D18E2098435100282D96 /* main.m in Sources */,
-				C9066CAA24B8372800918849 /* XG_SendImageCollectionView.m in Sources */,
+				C9066CC424B85F2400918849 /* XG_WeChatHeadCollectionReusableView.m in Sources */,
+				C9066CC824B85F2400918849 /* XG_SendWechatViewController.m in Sources */,
+				C9066CC724B85F2400918849 /* XG_SendImageCollectionView.m in Sources */,
+				C9066CC524B85F2400918849 /* XG_CommonTool.m in Sources */,
 				02B8D1802098434F00282D96 /* AppDelegate.m in Sources */,
-				C9066CA724B8372800918849 /* XG_SendWechatViewController.m in Sources */,
-				C9066CA924B8372800918849 /* XG_SendMomentCollectionViewCell.m in Sources */,
-				C9066CAB24B8372800918849 /* XG_CommonTool.m in Sources */,
+				C9066CC624B85F2400918849 /* XG_SendMomentCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
