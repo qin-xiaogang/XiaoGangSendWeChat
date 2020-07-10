@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "XiaoGangSendWeChat"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "XiaoGangSendWeChat is a SendImages like wechats in sending Friendship Images"
   spec.homepage     = "https://github.com/qin-xiaogang/XiaoGangSendWeChat"
   spec.license      = "MIT"
